@@ -8,9 +8,9 @@ import { HomeComponent } from './home/home.component';
   standalone: true,
   imports: [HomeComponent],
   // templateUrl: './app.component.html',
-  // styleUrl: './app.component.scss',
+  styleUrls: ['./app.component.scss'],
   template: `
-    <main>
+    <main class="container">
       <header class="brand-name">
         <img
           class="brand-logo"
